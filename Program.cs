@@ -30,7 +30,6 @@ namespace PA2
                     Output.Battle();
                     MultiPlayerGame.DisplayPlayersHealth();
                     MultiPlayerGame.Battle();
-                    Start();
                     break;
                 
                 case "2":
@@ -41,7 +40,6 @@ namespace PA2
                     Output.Battle();
                     SinglePlayerGame.DisplayPlayersHealth();
                     SinglePlayerGame.Battle();
-                    Start();
                     break;
                 
                 case "3":
