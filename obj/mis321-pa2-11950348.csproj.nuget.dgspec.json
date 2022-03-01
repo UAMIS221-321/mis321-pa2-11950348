@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\School\\Desktop\\mis321-pa2-11950348\\mis321-pa2-11950348.csproj": {}
+    "/Users/thelostfox/Documents/MIS321/source/repos/mis321-pa2-11950348/mis321-pa2-11950348.csproj": {}
   },
   "projects": {
-    "C:\\Users\\School\\Desktop\\mis321-pa2-11950348\\mis321-pa2-11950348.csproj": {
+    "/Users/thelostfox/Documents/MIS321/source/repos/mis321-pa2-11950348/mis321-pa2-11950348.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\School\\Desktop\\mis321-pa2-11950348\\mis321-pa2-11950348.csproj",
+        "projectUniqueName": "/Users/thelostfox/Documents/MIS321/source/repos/mis321-pa2-11950348/mis321-pa2-11950348.csproj",
         "projectName": "mis321-pa2-11950348",
-        "projectPath": "C:\\Users\\School\\Desktop\\mis321-pa2-11950348\\mis321-pa2-11950348.csproj",
-        "packagesPath": "C:\\Users\\School\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\School\\Desktop\\mis321-pa2-11950348\\obj\\",
+        "projectPath": "/Users/thelostfox/Documents/MIS321/source/repos/mis321-pa2-11950348/mis321-pa2-11950348.csproj",
+        "packagesPath": "/Users/thelostfox/.nuget/packages/",
+        "outputPath": "/Users/thelostfox/Documents/MIS321/source/repos/mis321-pa2-11950348/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\School\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/thelostfox/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

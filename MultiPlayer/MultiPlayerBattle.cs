@@ -36,7 +36,7 @@ namespace PA2
             if (Offense.CharacterChoice.Name == "Jack Sparrow" && Defense.CharacterChoice.Name == "Will Turner")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Jack Sparrow's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Jack Sparrow's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 
@@ -45,7 +45,7 @@ namespace PA2
             else if (Offense.CharacterChoice.Name == "Will Turner" && Defense.CharacterChoice.Name == "Davy Jones")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Will Turner's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Will Turner's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 bonus = 1.2;
@@ -62,7 +62,7 @@ namespace PA2
             else if (Offense.CharacterChoice.Name == "Angelica" && Defense.CharacterChoice.Name == "Black Beard")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Angelica's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Angelica's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 bonus = 1.2;
@@ -70,7 +70,7 @@ namespace PA2
             else if (Offense.CharacterChoice.Name == "Angelica" &&  Defense.CharacterChoice.Name == "Jack Sparrow")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Angelica's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Angelica's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 bonus = 1.2;
@@ -78,7 +78,7 @@ namespace PA2
             else if (Offense.CharacterChoice.Name == "Black Beard" && Defense.CharacterChoice.Name == "Jack Sparrow")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Black Beard's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Black Beard's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 bonus = 1.2;
@@ -86,7 +86,7 @@ namespace PA2
             else if (Offense.CharacterChoice.Name == "Jack The Monkey" && Defense.CharacterChoice.Name == "Black Beard")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Jack The Monkey's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Jack The Monkey's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 bonus = 1.2;
@@ -116,7 +116,7 @@ namespace PA2
         
         private string MultiPlayerBattleChoice(){
 
-            string choice = Console.ReadLine();
+            string choice = System.Console.ReadLine();
 
             while (choice != "2")
             {
@@ -141,7 +141,7 @@ namespace PA2
                 difference = 0;
             }
             double damage = (difference) * bonus;
-            Console.WriteLine($"\"{Offense.CharacterChoice.Name}\" yeild {damage} damage to {Defense.CharacterChoice.Name}!");
+            System.Console.WriteLine($"\"{Offense.CharacterChoice.Name}\" yeild {damage} damage to {Defense.CharacterChoice.Name}!");
             if (Defense.CharacterChoice.Health - damage < 0)
             {
                 Defense.CharacterChoice.Health = 0;

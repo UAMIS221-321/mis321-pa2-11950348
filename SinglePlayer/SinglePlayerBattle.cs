@@ -45,7 +45,7 @@ namespace PA2
             if (PlayerOne.CharacterChoice.Name == "Jack Sparrow" && PlayerTwo.CharacterChoice.Name == "Will Turner")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Jack Sparrow's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Jack Sparrow's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 
@@ -54,7 +54,7 @@ namespace PA2
             else if (PlayerOne.CharacterChoice.Name == "Will Turner" && PlayerTwo.CharacterChoice.Name == "Davy Jones")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Will Turner's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Will Turner's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 playerOneBonus = 1.2;
@@ -62,7 +62,7 @@ namespace PA2
             else if (PlayerOne.CharacterChoice.Name == "Davy Jones" && PlayerTwo.CharacterChoice.Name == "Jack Sparrow")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Davy Jone's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Davy Jone's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 playerOneBonus = 1.2;
@@ -70,7 +70,7 @@ namespace PA2
             else if (PlayerOne.CharacterChoice.Name == "Angelica" && PlayerTwo.CharacterChoice.Name == "Black Beard")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Angelica's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Angelica's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 playerOneBonus = 1.2;
@@ -78,7 +78,7 @@ namespace PA2
             else if (PlayerOne.CharacterChoice.Name == "Angelica" &&  PlayerTwo.CharacterChoice.Name == "Jack Sparrow")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Angelica's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Angelica's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 playerOneBonus = 1.2;
@@ -86,7 +86,7 @@ namespace PA2
             else if (PlayerOne.CharacterChoice.Name == "Black Beard" && PlayerTwo.CharacterChoice.Name == "Jack Sparrow")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Black Beard's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Black Beard's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 playerOneBonus = 1.2;
@@ -94,7 +94,7 @@ namespace PA2
             else if (PlayerOne.CharacterChoice.Name == "Jack The Monkey" && PlayerTwo.CharacterChoice.Name == "Black Beard")
             {
                 System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                Console.WriteLine("[Jack The Monkey's] Attack Bonus is Active!");
+                System.Console.WriteLine("[Jack The Monkey's] Attack Bonus is Active!");
                 System.Console.ResetColor();
 
                 playerOneBonus = 1.2;
@@ -123,7 +123,7 @@ namespace PA2
                 playerOneTurnDifference = 0;
             }
             playerOneTurnDamage = (playerOneTurnDifference) * playerOneBonus;
-            Console.WriteLine($"\"{PlayerOne.CharacterChoice.Name}\" yeild {playerOneTurnDamage} damage to {PlayerTwo.CharacterChoice.Name}!");
+            System.Console.WriteLine($"\"{PlayerOne.CharacterChoice.Name}\" yeild {playerOneTurnDamage} damage to {PlayerTwo.CharacterChoice.Name}!");
             if (PlayerTwo.CharacterChoice.Health - playerOneTurnDamage < 0)
             {
                 PlayerTwo.CharacterChoice.Health = 0;
@@ -146,7 +146,7 @@ namespace PA2
                 if (PlayerTwo.CharacterChoice.Name == "Jack Sparrow" && PlayerOne.CharacterChoice.Name == "Will Turner")
                 {
                     System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                    Console.WriteLine("[Jack Sparrow's] Attack Bonus is Active!");
+                    System.Console.WriteLine("[Jack Sparrow's] Attack Bonus is Active!");
                     System.Console.ResetColor();
 
                 
@@ -155,7 +155,7 @@ namespace PA2
                 else if (PlayerTwo.CharacterChoice.Name == "Will Turner" && PlayerOne.CharacterChoice.Name == "Davy Jones")
                 {
                     System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                    Console.WriteLine("[Will Turner's] Attack Bonus is Active!");
+                    System.Console.WriteLine("[Will Turner's] Attack Bonus is Active!");
                     System.Console.ResetColor();
 
                     playerTwoBonus = 1.2;
@@ -163,7 +163,7 @@ namespace PA2
                 else if (PlayerTwo.CharacterChoice.Name == "Davy Jones" && PlayerOne.CharacterChoice.Name == "Jack Sparrow")
                 {
                     System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                    Console.WriteLine("[Davy Jone's] Attack Bonus is Active!");
+                    System.Console.WriteLine("[Davy Jone's] Attack Bonus is Active!");
                     System.Console.ResetColor();
 
                     playerTwoBonus = 1.2;
@@ -171,7 +171,7 @@ namespace PA2
                 else if (PlayerTwo.CharacterChoice.Name == "Angelica" && PlayerOne.CharacterChoice.Name == "Black Beard")
                 {
                     System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                    Console.WriteLine("[Angelica's] Attack Bonus is Active!");
+                    System.Console.WriteLine("[Angelica's] Attack Bonus is Active!");
                     System.Console.ResetColor();
 
                     playerTwoBonus = 1.2;
@@ -179,7 +179,7 @@ namespace PA2
                 else if (PlayerTwo.CharacterChoice.Name == "Angelica" &&  PlayerOne.CharacterChoice.Name == "Jack Sparrow")
                 {
                     System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                    Console.WriteLine("[Angelica's] Attack Bonus is Active!");
+                    System.Console.WriteLine("[Angelica's] Attack Bonus is Active!");
                     System.Console.ResetColor();
 
                     playerTwoBonus = 1.2;
@@ -187,7 +187,7 @@ namespace PA2
                 else if (PlayerTwo.CharacterChoice.Name == "Black Beard" && PlayerOne.CharacterChoice.Name == "Jack Sparrow")
                 {
                     System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                    Console.WriteLine("[Black Beard's] Attack Bonus is Active!");
+                    System.Console.WriteLine("[Black Beard's] Attack Bonus is Active!");
                     System.Console.ResetColor();
 
                     playerTwoBonus = 1.2;
@@ -195,7 +195,7 @@ namespace PA2
                 else if (PlayerTwo.CharacterChoice.Name == "Jack The Monkey" && PlayerOne.CharacterChoice.Name == "Black Beard")
                 {
                     System.Console.ForegroundColor = System.ConsoleColor.Yellow;
-                    Console.WriteLine("[Jack The Monkey's] Attack Bonus is Active!");
+                    System.Console.WriteLine("[Jack The Monkey's] Attack Bonus is Active!");
                     System.Console.ResetColor();
 
                     playerTwoBonus = 1.2;
@@ -224,7 +224,7 @@ namespace PA2
                     playerTwoTurnDifference = 0;
                 }
                 playerTwoTurnDamage = (playerTwoTurnDifference) * playerTwoBonus;
-                Console.WriteLine($"\"{PlayerTwo.CharacterChoice.Name}\" yeild {playerTwoTurnDamage} damage to {PlayerOne.CharacterChoice.Name}!");
+                System.Console.WriteLine($"\"{PlayerTwo.CharacterChoice.Name}\" yeild {playerTwoTurnDamage} damage to {PlayerOne.CharacterChoice.Name}!");
                 if (PlayerOne.CharacterChoice.Health - playerTwoTurnDamage < 0)
                 {
                     PlayerOne.CharacterChoice.Health = 0;
@@ -239,7 +239,7 @@ namespace PA2
         
         private string PlayerOneBattleChoice(){
 
-            string choice = Console.ReadLine();
+            string choice = System.Console.ReadLine();
             while (choice != "2")
             {
                 if (choice == "1")
