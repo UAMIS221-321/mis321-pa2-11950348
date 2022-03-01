@@ -96,13 +96,11 @@ namespace PA2
                 bonus = 1;
             }
             
-            
             if (attack == "1")
             {
                 offensePower = this.Offense.CharacterChoice.Attack.Attack(this.Offense.CharacterChoice.Name, this.Offense.CharacterChoice.Power);
                 defensePower = this.Offense.CharacterChoice.Defend.Defend(this.Defense.CharacterChoice.Name, this.Defense.CharacterChoice.Defense);
             }
-            
             //Flee Selection
             else if (attack == "2")
             {

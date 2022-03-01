@@ -103,7 +103,6 @@ namespace PA2
             {
                 playerOneBonus = 1;
             }
-            
             //Players Battle Selection
             if (playerOneAttack == "1")
             {
@@ -115,7 +114,6 @@ namespace PA2
             {
                 System.Console.WriteLine($"[{PlayerOne.Name}] aka \"{PlayerOne.CharacterChoice.Name}\" ran away this round!");
             }
-            
             //Player Logic
             playerOneTurnDifference = playerOneOffensePower - playerTwoDefensePower;
             if ((playerOneOffensePower - playerTwoDefensePower) < 0)
@@ -133,10 +131,7 @@ namespace PA2
                 PlayerTwo.CharacterChoice.Health = PlayerTwo.CharacterChoice.Health - playerOneTurnDamage;
             }
 
-
             //AI's Turn Starts Here
-
-
             //If the AI is dead it can't go...
             if (PlayerTwo.CharacterChoice.Health > 0)
             {
@@ -204,7 +199,6 @@ namespace PA2
                 {
                     playerTwoBonus = 1;
                 }
-
                 //AI attacking
                 if (aiAttack == "1")
                 {
@@ -216,7 +210,6 @@ namespace PA2
                 {
                     System.Console.WriteLine($"[{PlayerTwo.Name}] aka \"{PlayerOne.CharacterChoice.Name}\" ran away this round!");
                 }
-
                 //AI Logic
                 playerTwoTurnDifference = playerTwoOffensePower - playerOneDefensePower;
                 if ((playerTwoOffensePower - playerOneDefensePower) < 0)
@@ -269,7 +262,6 @@ namespace PA2
                 System.Threading.Thread.Sleep(150);
             }
             System.Console.WriteLine("");
-
             //AI Difficulty
             int randomNumber = new Random().Next(1,101);
             if (difficulty == 1)
